@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #082032;
+}
+
+.banner {
+    background-color: #2C394B ;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 34px;
+    font-family: 'WindSong', cursive;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color :white;
+}
+
+.tabel-content{
+    border-collapse: collapse;
+    margin : 25px 0;
+    font-size: 20px;
+    min-width: 500px;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabel-content td{ 
+    padding: 12px 15px;
+}
+
+.tabel-content tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.frame{
+    position: relative;
+    left: 10%;
+}
+
+.footer {
+    background-color: #2C394B ;
+    color: #fff;
+    text-align: left;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
